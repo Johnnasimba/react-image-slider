@@ -9,7 +9,7 @@ const ImageSlider = () => {
         <div>
             <div className="image-slider">
                 <div className="image-slider-left-button">
-                    left button
+                    <i class="fas fa-arrow-circle-left fa-3x"></i>
                 </div>
                 <div className="slides-container">
                     <div className="slide-image">
@@ -17,11 +17,15 @@ const ImageSlider = () => {
                     </div>
                 </div>
                 <div className="image-slider-right-button">
-                    left button
+                    <i class="fas fa-arrow-circle-right fa-3x"></i>
                 </div>
 
             </div>
             <div class="navigation-dots">
+                <div className="single-dot active"></div>
+                <div className="single-dot"></div>
+                <div className="single-dot"></div>
+                <div className="single-dot"></div>
             </div>  
 
         </div>

@@ -1,0 +1,26 @@
+
+
+.image-slider {
+    width: 1100px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #1b2d50;
+    overflow: hidden;
+}
+
+.image-slider-left-button,
+.image-slider-right-button{
+
+    color: whitesmoke;
+    background: #01050e;
+
+}
+.slide-image > img{
+    height: 100%;
+    width: auto;
+}

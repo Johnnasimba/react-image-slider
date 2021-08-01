@@ -11,7 +11,7 @@
     justify-content: space-between;
 
     background: #1b2d50;
-    border: 4px solid red;
+    /* border: 4px solid red; */
     overflow: hidden;
 }
 .slide-image {

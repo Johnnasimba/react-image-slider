@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect} from 'react';
+import Dots from './dots/dot.component';
 
 import './image-slider.styles.css';
 
@@ -41,15 +42,8 @@ const ImageSlider = ({ images=[], autoPlayTime = 5000, ...props}) => {
                         ))
                     }
             </div>
-
-
-
-            <div className="navigation-dots">
-                <div className="single-dot active"></div>
-                <div className="single-dot"></div>
-                <div className="single-dot"></div>
-                <div className="single-dot"></div>
-            </div>  
+            <Dots currentSlide={currentSlide} amountSlides = {images.length} nextSlide={nextSlide} />
+          
 
         </div>
     )

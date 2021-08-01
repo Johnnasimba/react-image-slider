@@ -1,4 +1,5 @@
 {
+  "homepage": "http://gitname.github.io/react-image-slider.git",
   "name": "image-slider",
   "version": "0.1.0",
   "private": true,
@@ -37,7 +38,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://gitname.github.io/react-image-slider.git",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
